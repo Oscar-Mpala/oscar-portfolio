@@ -1,6 +1,6 @@
 export const initialSiteInfo = {
   email: "oscaranashempala@gmail.com",
-  github: "https://www.instagram.com/oscarmpala05/", // Note: We mapped this to Instagram in Contact.tsx!
+  github: "https://www.instagram.com/oscarmpala.dev/", // Note: We mapped this to Instagram in Contact.tsx!
   linkedin: "https://linkedin.com/in/oscar-mpala-59201528a"
 };
 
@@ -16,7 +16,7 @@ export const initialAboutData = {
 export const initialSkillsData = [
   "HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript", 
   "React.js", "Next.js", "Tailwind CSS", 
-  "Node.js", "Express", "PostgreSQL", "MongoDB", "REST APIs", "GraphQL"
+  "Node.js", "PostgreSQL", "MongoDB", "REST APIs", "Wordpress", "WooCommerce", "Dokan", "Elementor",
 ];
 
 export const initialProjectsData = [
@@ -65,7 +65,7 @@ export const initialProjectsData = [
     longDesc: "Harrison & Vance is a premium, minimalist front-end web application engineered for elite corporate service providers. Built using Next.js and Tailwind CSS, the architecture prioritizes blazing-fast page load speeds, flawless mobile responsiveness, and high-impact SEO metrics. The design features a high-contrast dark navy header section, dynamic service grids, interactive floating trust metrics, and a strictly validated confidential case evaluation form designed to maximize lead conversion.",
     techStack: ["Next.js", "React", "Tailwind CSS", "TypeScript", "Lucide React"],
     briefDocUrl: "", 
-    githubUrl: "https://github.com/Oscar-Mpala/harrisonvance-law-landing-page.git", 
+    githubUrl: "https://github.com/Oscar-Mpala/harrisonvance-law-landingpage.git", 
     liveUrl: "https://harrisonvance.netlify.app"
   },
   {
@@ -81,7 +81,7 @@ export const initialProjectsData = [
     longDesc: "ZENITH is a sleek, dark-theme e-commerce frontend tailored for mechanical keyboard enthusiasts. It features a responsive product gallery showcasing curated hardware like the Portal-65 Gasket Kit and Cyberpunk Laser Keycaps. The application utilizes the React Context API for robust shopping cart state management, alongside Tailwind CSS for its premium grid and flexbox layouts. It includes simulated checkout processes, dynamic filtering, and strict form validation to ensure a seamless premium shopping experience.",
     techStack: ["React", "Tailwind CSS", "Context API", "Lucide React"],
     briefDocUrl: "/projects/zenith/zenith-brief.pdf",
-    githubUrl: "https://github.com/Oscar-Mpala/zenith.git", // Example repo link
+    githubUrl: "https://github.com/Oscar-Mpala/zenith-mechanical-keyboards-ecommerce.git", // Example repo link
     liveUrl: "" // Empty string greys out the Live Demo button
   },
   {
@@ -97,7 +97,7 @@ export const initialProjectsData = [
     longDesc: "ProFlow Enterprise is a robust project management tool built with a professional, highly accessible design language. It features a fully functional drag-and-drop interface utilizing React and @dnd-kit, allowing users to effortlessly move tasks between 'To Do', 'In Progress', and 'Done' states. The application strictly adheres to a clean enterprise aesthetic using Tailwind CSS utility classes, completely avoiding flashy trends in favor of functional clarity. It also includes custom hooks for localStorage state persistence to ensure task data remains intact across browser sessions.",
     techStack: ["React", "Tailwind CSS", "@dnd-kit", "localStorage"],
     briefDocUrl: "/projects/proflow/proflow-brief.pdf",
-    githubUrl: "https://github.com/Oscar-Mpala/proflow", // Example repo link
+    githubUrl: "https://github.com/Oscar-Mpala/proflow.git", // Example repo link
     liveUrl: "" // Empty string greys out the Live Demo button
   }
 ];
