@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import NotFound from './pages/NotFound';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
 import Home from './pages/Home';
@@ -84,6 +85,14 @@ const AnimatedRoutes = ({ siteInfo, setSiteInfo, heroData, setHeroData, aboutDat
                 skillsData={skillsData} setSkillsData={setSkillsData}
                 projectsData={projectsData} setProjectsData={setProjectsData}
               />
+            </PageWrapper>
+          } 
+        />
+        <Route 
+          path="*" 
+          element={
+            <PageWrapper>
+              <NotFound />
             </PageWrapper>
           } 
         />
