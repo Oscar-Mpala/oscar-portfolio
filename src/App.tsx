@@ -96,6 +96,14 @@ const AnimatedRoutes = ({ siteInfo, setSiteInfo, heroData, setHeroData, aboutDat
             </PageWrapper>
           } 
         />
+        <Route 
+  path="*" 
+  element={
+    <PageWrapper>
+      <NotFound siteInfo={siteInfo} />
+    </PageWrapper>
+  } 
+/>
       </Routes>
     </AnimatePresence>
   );
