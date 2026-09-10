@@ -80,7 +80,7 @@ export default function Contact({ siteInfo }: ContactProps) {
                   </div>
                 </a>
 
-                <a href={siteInfo.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 bg-slate-50 rounded-xl border border-slate-200 hover:border-sky-300 hover:bg-sky-50 transition-all group">
+                <a href={siteInfo.instagram} target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 bg-slate-50 rounded-xl border border-slate-200 hover:border-sky-300 hover:bg-sky-50 transition-all group">
                   <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-sm border border-slate-200">
                     <Instagram className="w-5 h-5 text-sky-600" />
                   </div>
