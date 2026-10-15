@@ -108,7 +108,7 @@ export const initialProjectsData = [
     "/projects/closet-app/thumbnail.webp",
     "/projects/closet-app/dashboard.webp",
     "/projects/closet-app/canvas-builder.webp",
-    "/projects/closet-app/calendar-sync.webp"
+    "/projects/closet-app/calendar-sync.webp",
   ],
   "shortDesc": "An offline-first progressive web app for personal wardrobe management, featuring algorithmic outfit generation and seamless cloud synchronization.",
   "longDesc": "This is a custom-built, offline-first Progressive Web App designed to completely digitize personal wardrobe management. Engineered with React and Tailwind CSS, the UI embraces a highly responsive, minimalist 'glassmorphism' aesthetic that keeps clothing photography as the focal point through strict 1:1 aspect ratios. Under the hood, it leverages Dexie.js for lightning-fast local IndexedDB storage, paired with a custom Firebase syncing engine that utilizes 'tombstone' logic for flawless offline-to-online data resolution. Core features include a smart algorithmic outfit generator, interactive calendar logging, and automated laundry state tracking.",
