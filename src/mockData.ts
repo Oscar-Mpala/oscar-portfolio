@@ -10,7 +10,7 @@ export const initialHeroData = {
 };
 
 export const initialAboutData = {
-  bio: "I’m a full-stack web developer and Electronic Engineering student at NUST in Zimbabwe. I build websites and web apps for businesses and individuals, either custom-built or on WordPress depending on what the job needs. Each one comes with a clean, professional interface, security built into the backend all at affordable rates. It all starts with a conversation about what you need, by call, message, or in person if you’re nearby. From there, I’ll tell you plainly what it will take and what it will cost."
+  bio: "I’m a full-stack web developer and Electronic Engineering student at NUST in Zimbabwe. I build websites and web apps for businesses and individuals, either custom-built or on WordPress depending on what the job needs. Each one comes with a clean, professional interface and security built into the backend all at affordable rates. It all starts with a conversation about what you need, by call, message, or in person if you’re nearby. From there, I’ll tell you plainly what it will take and what it will cost."
 };
 
 export const initialSkillsData = [
