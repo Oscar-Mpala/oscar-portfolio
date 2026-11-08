@@ -5,12 +5,12 @@ export const initialSiteInfo = {
 };
 
 export const initialHeroData = {
-  title: "Building Robust Full-Stack Web Applications",
-  subtitle: "I am a Full-Stack Web Developer specializing in React, Node.js, and modern web architectures."
+  title: "Turning Business Ideas Into Working Web Apps.",
+  subtitle: "I build marketplaces, dashboards, and business tools from the database up to the interface."
 };
 
 export const initialAboutData = {
-  bio: "I am a passionate Full-Stack Web Developer with a strong foundation in building scalable, high-performance web applications. My expertise spans the entire development lifecycle, from designing intuitive user interfaces with React and Tailwind CSS to architecting robust backend APIs with Node.js and Express. I thrive on solving complex problems and continuously learning new technologies to deliver exceptional digital experiences."
+  bio: "I’m a full-stack web developer and Electronic Engineering student at NUST in Zimbabwe. I build websites and web apps for businesses and individuals, either custom-built or on WordPress depending on what the job needs. Each one comes with a clean, professional interface, security built into the backend all at affordable rates. It all starts with a conversation about what you need, by call, message, or in person if you’re nearby. From there, I’ll tell you plainly what it will take and what it will cost."
 };
 
 export const initialSkillsData = [
