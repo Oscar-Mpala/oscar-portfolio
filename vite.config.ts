@@ -13,12 +13,12 @@ export default defineConfig({
       dynamicRoutes: [
         '/',
         '/projects',
-        '/admin',
         // Beautiful, SEO-friendly routes
         '/project/tradeaxis',
         '/project/crest-commercial',
         '/project/harrison-vance',
         '/project/zenith',
+        '/project/smart-closet-manager',
         '/project/proflow'
       ]
     })
