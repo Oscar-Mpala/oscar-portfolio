@@ -114,8 +114,7 @@ export const initialProjectsData = [
     thumbnailUrl: "/projects/proflow/thumbnail.webp",
     gallery: [
       "/projects/proflow/thumbnail.webp",
-      "/projects/proflow/gallery-2.webp",
-      "/projects/proflow/gallery-3.webp"
+      "/projects/proflow/dashboard.webp"
     ],
     shortDesc: "A clean, enterprise-grade drag-and-drop Kanban board for project management.",
     longDesc: "ProFlow Enterprise is a robust project management tool built with a professional, highly accessible design language. It features a fully functional drag-and-drop interface utilizing React and @dnd-kit, allowing users to effortlessly move tasks between 'To Do', 'In Progress', and 'Done' states. The application strictly adheres to a clean enterprise aesthetic using Tailwind CSS utility classes, completely avoiding flashy trends in favor of functional clarity. It also includes custom hooks for localStorage state persistence to ensure task data remains intact across browser sessions.",
