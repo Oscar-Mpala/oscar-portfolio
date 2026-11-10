@@ -64,8 +64,8 @@ export default function About({ bio }: AboutProps) {
             */}
             <div className="relative h-full w-full rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
               <img 
-                src="/profile.webp" 
-                alt="Oscar Mpala" 
+                src="/oscar-mpala-developer.webp" 
+                alt="Oscar A. Mpala" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
