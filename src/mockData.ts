@@ -53,6 +53,30 @@ export const initialProjectsData = [
     liveUrl: "https://crestcommercial.netlify.app" 
   },
   {
+  "id": "smart-closet-manager",
+  "title": "Smart Closet Manager",
+  "thumbnailUrl": "/projects/closet-app/thumbnail.webp",
+  "gallery": [
+    "/projects/closet-app/thumbnail.webp",
+    "/projects/closet-app/dashboard.webp",
+    "/projects/closet-app/canvas-builder.webp",
+    "/projects/closet-app/calendar-sync.webp",
+  ],
+  "shortDesc": "An offline-first progressive web app for personal wardrobe management, featuring algorithmic outfit generation and seamless cloud synchronization.",
+  "longDesc": "This is a custom-built, offline-first Progressive Web App designed to completely digitize personal wardrobe management. Engineered with React and Tailwind CSS, the UI embraces a highly responsive, minimalist 'glassmorphism' aesthetic that keeps clothing photography as the focal point through strict 1:1 aspect ratios. Under the hood, it leverages Dexie.js for lightning-fast local IndexedDB storage, paired with a custom Firebase syncing engine that utilizes 'tombstone' logic for flawless offline-to-online data resolution. Core features include a smart algorithmic outfit generator, interactive calendar logging, and automated laundry state tracking.",
+  "techStack": [
+    "React",
+    "Tailwind CSS",
+    "Dexie.js",
+    "Firebase",
+    "Vite",
+    "Lucide Icons"
+  ],
+  "briefDocUrl": "/projects/closet-app/smart-closet-brief.pdf",
+  "githubUrl": "https://github.com/Oscar-Mpala/closet-management-web-app.git",
+  "liveUrl": "https://closetmanager.netlify.app"
+  },
+  {
     id: "harrison-vance",
     title: "Harrison & Vance Legal: Corporate Landing Page",
     thumbnailUrl: "/projects/hv-lawfirm/thumbnail.webp",
@@ -99,29 +123,5 @@ export const initialProjectsData = [
     briefDocUrl: "/projects/proflow/proflow-brief.pdf",
     githubUrl: "https://github.com/Oscar-Mpala/proflow.git", 
     liveUrl: "" 
-  },
-  {
-  "id": "smart-closet-manager",
-  "title": "Smart Closet Manager",
-  "thumbnailUrl": "/projects/closet-app/thumbnail.webp",
-  "gallery": [
-    "/projects/closet-app/thumbnail.webp",
-    "/projects/closet-app/dashboard.webp",
-    "/projects/closet-app/canvas-builder.webp",
-    "/projects/closet-app/calendar-sync.webp",
-  ],
-  "shortDesc": "An offline-first progressive web app for personal wardrobe management, featuring algorithmic outfit generation and seamless cloud synchronization.",
-  "longDesc": "This is a custom-built, offline-first Progressive Web App designed to completely digitize personal wardrobe management. Engineered with React and Tailwind CSS, the UI embraces a highly responsive, minimalist 'glassmorphism' aesthetic that keeps clothing photography as the focal point through strict 1:1 aspect ratios. Under the hood, it leverages Dexie.js for lightning-fast local IndexedDB storage, paired with a custom Firebase syncing engine that utilizes 'tombstone' logic for flawless offline-to-online data resolution. Core features include a smart algorithmic outfit generator, interactive calendar logging, and automated laundry state tracking.",
-  "techStack": [
-    "React",
-    "Tailwind CSS",
-    "Dexie.js",
-    "Firebase",
-    "Vite",
-    "Lucide Icons"
-  ],
-  "briefDocUrl": "/projects/closet-app/smart-closet-brief.pdf",
-  "githubUrl": "https://github.com/Oscar-Mpala/closet-management-web-app.git",
-  "liveUrl": "https://closetmanager.netlify.app"
-}
+  }
 ];
