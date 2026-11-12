@@ -190,7 +190,7 @@ export default function ProjectDetail({ projectsData, siteInfo }: ProjectDetailP
                   rel="noopener noreferrer" 
                   className="flex items-center justify-center gap-2 px-6 py-4 bg-sky-600 hover:bg-sky-700 text-white rounded-xl transition-all font-bold shadow-sm"
                 >
-                  <ExternalLink size={20} /> Live Demo
+                  <ExternalLink size={20} /> Live Site
                 </a>
               ) : (
                 <button disabled className="flex items-center justify-center gap-2 px-6 py-4 bg-slate-200 border border-slate-300 text-slate-500 rounded-xl font-bold opacity-60 cursor-not-allowed">
