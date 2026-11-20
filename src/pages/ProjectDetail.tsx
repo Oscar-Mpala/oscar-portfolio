@@ -165,7 +165,7 @@ export default function ProjectDetail({ projectsData, siteInfo }: ProjectDetailP
                 rel="noopener noreferrer" 
                 className="flex items-center justify-center gap-2 px-6 py-4 bg-white hover:bg-slate-50 border border-slate-200 text-slate-800 rounded-xl transition-all font-bold shadow-sm hover:border-sky-300 hover:text-sky-600"
               >
-                <FileText size={20} /> Download Brief
+                <FileText size={20} /> Download Report
               </a>
 
               {project.githubUrl ? (
